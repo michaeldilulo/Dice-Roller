@@ -38,12 +38,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-around mt-3 mb-3">
-                    <img src="diceOneSide.PNG" alt="" class="img-fluid">
-                    <img src="diceOneSide.PNG" alt="" class="img-fluid">
+                    <img id="myDiceOne" src="images/d1.PNG" alt="roll: 1" class="img-fluid">
+                    <img id="myDiceTwo" src="images/d1.PNG" alt="roll: 1" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex justify-content-around mt-3 mb-3">
-                    <img src="diceTwoSide.PNG" alt="" class="img-fluid">
-                    <img src="diceTwoSide.PNG" alt="" class="img-fluid">
+                    <img id="theirDiceOne" src="images/e1.PNG" alt="roll: 1" class="img-fluid">
+                    <img id="theirDiceTwo" src="images/e1.PNG" alt="roll: 1" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
         <div class="container-fluid mt-3">
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center mb-4">
-                    <button class="btn btn-lg btn-dark">Roll Ze Dice!</button>
+                    <button class="btn btn-lg btn-dark" onclick="rollDice()">Roll Ze Dice!</button>
                 </div>
             </div>
         </div>
@@ -64,13 +64,13 @@
                     <h3>Players Tie Score: <span id="playerTwoScoreTotal">0</span></h3>
                 </div>
                 <div class="col-md-3 d-flex justify-content-center mb-4 mt-4">
-                    <img src="dicetie.gif" alt="" class="img-fluid gifs">
+                    <img src="images/dicetie.gif" alt="" class="img-fluid gifs">
                 </div>
                 <div class="col-md-3 d-flex justify-content-center mb-4 mt-4">
-                    <img src="dicewinner.gif" alt="" class="img-fluid gifs">
+                    <img src="images/dicewinner.gif" alt="" class="img-fluid gifs">
                 </div>
                 <div class="col-md-3 d-flex justify-content-center mb-4 mt-4">
-                    <img src="diceloser.gif" alt="" class="img-fluid gifs">
+                    <img src="images/diceloser.gif" alt="" class="img-fluid gifs">
                 </div>
             </div>
         </div>
