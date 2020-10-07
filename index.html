@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -12,9 +13,70 @@
 
 <body>
 
-    <header></header>
+    <header>
 
-    <main></main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+                        <a class="navbar-brand">Dice Roller Game</a>
+                </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center mt-3 mb-3">
+                    <p>Roll the dice to settle any score with your friends!</p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-around mt-3 mb-3">
+                    <img src="diceOneSide.PNG" alt="" class="img-fluid">
+                    <img src="diceOneSide.PNG" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 d-flex justify-content-around mt-3 mb-3">
+                    <img src="diceTwoSide.PNG" alt="" class="img-fluid">
+                    <img src="diceTwoSide.PNG" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center mb-4">
+                    <button class="btn btn-lg btn-dark">Roll Ze Dice!</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 mt-4">
+                    <h3>Player One Score: <span id="playerOneScoreTotal">0</span></h3>
+                    <h3>Player Two Score: <span id="playerTwoScoreTotal">0</span></h3>
+                    <h3>Players Tie Score: <span id="playerTwoScoreTotal">0</span></h3>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mb-4 mt-4">
+                    <img src="dicetie.gif" alt="" class="img-fluid gifs">
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mb-4 mt-4">
+                    <img src="dicewinner.gif" alt="" class="img-fluid gifs">
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mb-4 mt-4">
+                    <img src="diceloser.gif" alt="" class="img-fluid gifs">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
 
 
     <script src="main.js"></script>

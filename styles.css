@@ -1,0 +1,21 @@
+body {
+    font-family: 'Secular One', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 160px;
+    width: 160px;
+}
+
+.gifs {
+    height: 250px;
+    width: 250px;
+}
